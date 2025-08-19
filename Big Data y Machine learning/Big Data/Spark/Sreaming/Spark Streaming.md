@@ -48,6 +48,7 @@ Los ejemplos típicos son:
 ### Input avanzado
 En Spark Streaming, los inputs avanzados son fuentes más complejas y de uso real en producción.
 Estos son integraciones con **sistemas de mensajería o recolección de datos distribuidos** que ya generan streams
+Se llaman avanzados porque requieren configuraciones adicionales (conexión, offsets, tolerancia a fallos, etc.) y, además, estos inputs están pensados para **aplicaciones distribuidas en producción** con grandes volúmenes de datos.
 
 ![[Pasted image 20250819123704.png]]
 
@@ -55,4 +56,29 @@ Los ejemplos típicos son:
 - **Kafka** => integración con Apache Kafka para consumir mensajes en tiempo real.
 - **Flume** => integración con Apache Flume (colector de logs).
 - **Kinesis** => integración con AWS Kinesis Streams.
-- **MQTT** o **Custom Receivers** => crea tu propio receptor con `Receiver` en Spark
+- **MQTT** o **Custom Receivers** => crea tu propio receptor con `Receiver` en Spark.
+
+## Transformaciones y Acciones
+
+Las transformaciones y acciones de **DStream** son similares a transformaciones de RDD. Algunas de las diferencias son como que `reduce` en **DStream** es una transformación y que `sortBy` no esta definido para **DStream**. Para el resto de transformaciones y acciones funcional igual o muy similar.
+![[Pasted image 20250819142351.png]]
+
+### Nuevas funciones en Spark Streaming
+
+![[Pasted image 20250819142439.png]]
+En **Spark Streaming**, las **operaciones de ventana (window operations)** permiten aplicar transformaciones **sobre un rango de tiempo (ventana)** de un **DStream**, en lugar de hacerlo solo sobre cada micro-batch por separado.
+Un **DStream** es una secuencia de RDDs generados cada intervalo de batch (ej: cada 2 segundos).  
+Con las **operaciones de ventana**, Spark permite **agrupar varios batches dentro de un rango de tiempo mayor (la ventana)** y procesarlos juntos.
+
+Esto se define con dos parámetros:
+1. **Duración de la ventana (window length)** → cuánto tiempo abarca la ventana.
+2. **Duración del desplazamiento (sliding interval)** → cada cuánto se mueve la ventana.
+
+#### Ejemplo
+
+- Batch interval = 2 segundos
+- Window length = 6 segundos
+- Slide interval = 4 segundos
+
+👉 Cada 4 segundos Spark tomará los últimos 6 segundos de datos (3 batches) y aplicará la operación.
+![[Pasted image 20250819145957.png]]
