@@ -82,3 +82,14 @@ Esto se define con dos parámetros:
 
 👉 Cada 4 segundos Spark tomará los últimos 6 segundos de datos (3 batches) y aplicará la operación.
 ![[Pasted image 20250819145957.png]]
+
+## Outputs
+
+![[Pasted image 20250819150300.png]]
+
+# Síntesis
+
+- **Spark Streaming** es un módulo simple y robusto de Spark, para extender su funcionalidad a stream de datos en tiempo "real".
+- Cada dato es puesto dentro de una cadena de RDD llamada **DStream**, particionado por tiempo.
+- Con pocas líneas es posible transformar una aplicación batch a una streaming.
+
