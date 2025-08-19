@@ -50,3 +50,9 @@ En Spark Streaming, los inputs avanzados son fuentes más complejas y de uso rea
 Estos son integraciones con **sistemas de mensajería o recolección de datos distribuidos** que ya generan streams
 
 ![[Pasted image 20250819123704.png]]
+
+Los ejemplos típicos son:
+- **Kafka** => integración con Apache Kafka para consumir mensajes en tiempo real.
+- **Flume** => integración con Apache Flume (colector de logs).
+- **Kinesis** => integración con AWS Kinesis Streams.
+- **MQTT** o **Custom Receivers** => crea tu propio receptor con `Receiver` en Spark
