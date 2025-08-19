@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "daf8292418e7388b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb866e4e27b9c124",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51d20e0ecc0cc738",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "IMG/Pasted image 20250819123704.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250819123704"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "85497e26cba0b50c",
+    "type": "split",
+    "children": [
+      {
+        "id": "205337d0724dd825",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcf820129ee451bc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9c7d85a099fcf517",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f853b0a5400ca297",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "83be6cad603b6157",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd64b4664dc22057",
+        "type": "tabs",
+        "dimension": 63.454861111111114,
+        "children": [
+          {
+            "id": "68b3a3ecd8a7e520",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Big Data/Introducción.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Introducción"
+            }
+          },
+          {
+            "id": "3db5339ad3bc5fe0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Big Data/Hadoop/Introducción al ecosistema Hadoop.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Introducción al ecosistema Hadoop"
+            }
+          },
+          {
+            "id": "9db8cb8a712c8517",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f7ca00cd3bcd4ce2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "IMG/Pasted image 20250819123704.png",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pasted image 20250819123704"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "80795ab5dda1ac47",
+        "type": "tabs",
+        "dimension": 36.54513888888889,
+        "children": [
+          {
+            "id": "da4c86d58d827d38",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "IMG/Pasted image 20250819123704.png",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": -0.2,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.71875,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7132754626224469,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Pasted image 20250819123704"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 330.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "github-sync:Sync with Remote": false
+    }
+  },
+  "active": "fcf820129ee451bc",
+  "lastOpenFiles": [
+    "IMG/Pasted image 20250819123654.png",
+    "IMG/Pasted image 20250819123704.png",
+    "Big Data/Spark/Sreaming/Spark Streaming.md",
+    "Big Data/Spark/Sreaming/Spark vs Spark Streaming.md",
+    "Big Data/Hadoop/Introducción al ecosistema Hadoop.md",
+    "Big Data/Hadoop/MapReduce.md",
+    "Big Data/Hadoop/YARN.md",
+    "Big Data/Hadoop/Sqoop.md",
+    "Big Data/Hadoop/Hive.md",
+    "IMG/Pasted image 20250819122935.png",
+    "IMG/Pasted image 20250819120859.png",
+    "IMG/Pasted image 20250819122816.png",
+    "IMG/Pasted image 20250819120745.png",
+    "Big Data/Flume/Introducción a Apache Flume.md",
+    "IMG/Pasted image 20250813184922.png",
+    "Big.md",
+    "[].md",
+    "Big Data/Spark/Sreaming",
+    "IMG/Pasted image 20250818203605.png",
+    "IMG/Pasted image 20250818203446.png",
+    "IMG/Pasted image 20250818203409.png",
+    "Big Data/Definiciones en Big Data/Lazy Execution.md",
+    "Big Data/Flume",
+    "Big Data/Spark/RDD.md",
+    "Big Data/Spark/Apache Spark.md",
+    "Big Data/Introducción al Big Data.md",
+    "Big Data/Spark",
+    "Big Data/Hadoop/Pig.md",
+    "Big Data/Definiciones en Big Data/DAG.md",
+    "Big Data/Hadoop/HDFS.md",
+    "Big Data/Definiciones en Big Data/commodity hardware.md",
+    "Untitled.canvas",
+    "Diplomado Big Data y Machine Learning.md",
+    "Big Data/Definiciones en Big Data",
+    "Big Data/Hadoop",
+    "IMG",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts",
+    "Big Data"
+  ]
+}
