@@ -11,12 +11,14 @@
             "id": "51d20e0ecc0cc738",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "IMG/Pasted image 20250819123704.png"
+                "file": "Big Data/Hadoop/Hive.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250819123704"
+              "icon": "lucide-file",
+              "title": "Hive"
             }
           }
         ]
@@ -141,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IMG/Pasted image 20250819123704.png",
+                "file": "Big Data/Hadoop/Hive.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250819123704"
+              "title": "Outline of Hive"
             }
           }
         ],
@@ -164,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "IMG/Pasted image 20250819123704.png",
+                "file": "Big Data/Hadoop/Hive.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -192,7 +194,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Pasted image 20250819123704"
+              "title": "Graph of Hive"
             }
           }
         ]
@@ -213,10 +215,10 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "fcf820129ee451bc",
+  "active": "51d20e0ecc0cc738",
   "lastOpenFiles": [
-    "IMG/Pasted image 20250819123654.png",
     "IMG/Pasted image 20250819123704.png",
+    "IMG/Pasted image 20250819123654.png",
     "Big Data/Spark/Sreaming/Spark Streaming.md",
     "Big Data/Spark/Sreaming/Spark vs Spark Streaming.md",
     "Big Data/Hadoop/Introducción al ecosistema Hadoop.md",
