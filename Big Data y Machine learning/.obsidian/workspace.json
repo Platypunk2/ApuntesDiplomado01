@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Big Data/Spark/Sreaming/Spark Streaming.md",
+                "file": "Big Data/Spark/SparkSQL/SparkSQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spark Streaming"
+              "title": "SparkSQL"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Big Data/Spark/Sreaming/Spark Streaming.md",
+                "file": "Big Data/Spark/SparkSQL/SparkSQL.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Spark Streaming"
+              "title": "Outline of SparkSQL"
             }
           }
         ],
@@ -166,7 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Big Data/Spark/Sreaming/Spark Streaming.md",
+                "file": "Big Data/Spark/SparkSQL/SparkSQL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,7 +194,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Spark Streaming"
+              "title": "Graph of SparkSQL"
             }
           }
         ]
@@ -217,12 +217,16 @@
   },
   "active": "51d20e0ecc0cc738",
   "lastOpenFiles": [
-    "Pasted image 20250819150300.png",
-    "Pasted image 20250819145957.png",
-    "Big Data/Spark/Sreaming/Spark vs Spark Streaming.md",
+    "Big Data/Flume/Introducción a Apache Flume.md",
     "Big Data/Spark/Sreaming/Spark Streaming.md",
+    "Big Data/Spark/SparkSQL/SparkSQL.md",
+    "Big Data/Spark/SparkSQL",
+    "Big Data/Spark/Sreaming/Spark vs Spark Streaming.md",
+    "IMG/Pasted image 20250819150300.png",
+    "Big Data/Spark/Apache Spark.md",
+    "IMG/Pasted image 20250819143113.png",
+    "IMG/Pasted image 20250819145957.png",
     "Big Data/Definiciones en Big Data/Lazy Execution.md",
-    "Pasted image 20250819143113.png",
     "IMG/Pasted image 20250819142439.png",
     "IMG/Pasted image 20250819142351.png",
     "Diplomado Big Data y Machine Learning.md",
@@ -238,14 +242,11 @@
     "IMG/Pasted image 20250819122935.png",
     "IMG/Pasted image 20250819120859.png",
     "IMG/Pasted image 20250819122816.png",
-    "IMG/Pasted image 20250819120745.png",
-    "Big Data/Flume/Introducción a Apache Flume.md",
     "Big.md",
     "[].md",
     "Big Data/Spark/Sreaming",
     "Big Data/Flume",
     "Big Data/Spark/RDD.md",
-    "Big Data/Spark/Apache Spark.md",
     "Big Data/Introducción al Big Data.md",
     "Big Data/Spark",
     "Big Data/Definiciones en Big Data/DAG.md",

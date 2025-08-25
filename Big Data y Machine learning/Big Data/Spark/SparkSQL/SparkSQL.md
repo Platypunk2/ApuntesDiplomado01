@@ -1,0 +1,1 @@
+SparkSQL es un módulo de Apache Spark diseñado para trabajar con datos estructurados y semiestructurados. Básicamente, te permite usar SQL (Strucutred Query Language) para consultar y procesar datos dentro de Spark, pero con toda la potencia de procesamiento distribuido que Spark ofrece.
